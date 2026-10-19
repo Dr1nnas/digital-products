@@ -1,0 +1,45 @@
+{
+  "name": "Foldable Metal Desk Stand for Phones and Tablets",
+  "slug": "foldable-metal-phone-tablet-stand",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 23.99,
+  "summary": "Adjustable, foldable metal stand that holds a phone or small tablet at eye level on your desk. Rotates 360°.",
+  "tags": [
+    "phone stand",
+    "tablet stand",
+    "desk accessories",
+    "foldable",
+    "metal stand",
+    "home office",
+    "adjustable"
+  ],
+  "specs": {
+    "Material": "Aluminium alloy + ABS",
+    "Size": "approx. 100 x 70 x 162 mm",
+    "Colour": "Black",
+    "Rotation": "360°",
+    "Department": "Desk & Office"
+  },
+  "whats_included": [
+    "1 x phone/tablet stand"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Foldable Metal Desk Stand for Phones and Tablets: photo 1",
+      "full": "assets/img/foldable-metal-phone-tablet-stand/01-01.webp",
+      "w": 1337,
+      "h": 1337,
+      "card": "assets/img/foldable-metal-phone-tablet-stand/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/foldable-metal-phone-tablet-stand/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:58"
+}

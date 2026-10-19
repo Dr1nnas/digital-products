@@ -1,0 +1,80 @@
+{
+  "name": "Waterproof Backpack Rain Cover",
+  "slug": "waterproof-backpack-rain-cover",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 17.99,
+  "summary": "Stretch-fit waterproof nylon cover that keeps your backpack dry on rainy commutes and hikes.",
+  "tags": [
+    "backpack cover",
+    "rain cover",
+    "hiking",
+    "waterproof",
+    "outdoor",
+    "travel",
+    "commuting"
+  ],
+  "specs": {
+    "Material": "Nylon",
+    "Size": "Free size",
+    "Colour": "Black",
+    "Department": "Travel"
+  },
+  "whats_included": [
+    "1 x rain cover"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Waterproof Backpack Rain Cover: photo 1",
+      "full": "assets/img/waterproof-backpack-rain-cover/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/waterproof-backpack-rain-cover/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/waterproof-backpack-rain-cover/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waterproof Backpack Rain Cover: photo 2",
+      "full": "assets/img/waterproof-backpack-rain-cover/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waterproof-backpack-rain-cover/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waterproof Backpack Rain Cover: photo 3",
+      "full": "assets/img/waterproof-backpack-rain-cover/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waterproof-backpack-rain-cover/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waterproof Backpack Rain Cover: photo 4",
+      "full": "assets/img/waterproof-backpack-rain-cover/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waterproof-backpack-rain-cover/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waterproof Backpack Rain Cover: photo 5",
+      "full": "assets/img/waterproof-backpack-rain-cover/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waterproof-backpack-rain-cover/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:10"
+}

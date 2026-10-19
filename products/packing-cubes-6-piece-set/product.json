@@ -1,0 +1,54 @@
+{
+  "name": "Travel Packing Cubes, 6-Piece Set",
+  "slug": "packing-cubes-6-piece-set",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 29.99,
+  "summary": "Six nested packing cubes in different sizes that keep clothes, shoes and small items sorted in your suitcase.",
+  "tags": [
+    "packing cubes",
+    "travel organizer",
+    "luggage organizer",
+    "suitcase",
+    "travel bags",
+    "packing",
+    "6 piece"
+  ],
+  "specs": {
+    "Material": "Nylon fabric",
+    "Pieces": "6",
+    "Colour": "Pink",
+    "Package size": "approx. 40 x 30 x 15 cm",
+    "Department": "Travel"
+  },
+  "whats_included": [
+    "6 x packing cubes in assorted sizes"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Travel Packing Cubes, 6-Piece Set: photo 1",
+      "full": "assets/img/packing-cubes-6-piece-set/01-01.webp",
+      "w": 1443,
+      "h": 1443,
+      "card": "assets/img/packing-cubes-6-piece-set/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/packing-cubes-6-piece-set/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Travel Packing Cubes, 6-Piece Set: photo 2",
+      "full": "assets/img/packing-cubes-6-piece-set/02-02.webp",
+      "w": 1500,
+      "h": 1372,
+      "thumb": "assets/img/packing-cubes-6-piece-set/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 220
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:00"
+}

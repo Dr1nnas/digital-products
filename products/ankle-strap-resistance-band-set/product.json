@@ -1,0 +1,80 @@
+{
+  "name": "Ankle Strap Resistance Band Set",
+  "slug": "ankle-strap-resistance-band-set",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 16.99,
+  "summary": "Padded ankle straps with clip-on resistance bands for glute and leg exercises at home or in the gym.",
+  "tags": [
+    "resistance bands",
+    "ankle straps",
+    "glute workout",
+    "home gym",
+    "fitness",
+    "pilates",
+    "leg training"
+  ],
+  "specs": {
+    "Material": "Elastic bands, padded straps, metal buckles",
+    "Variant": "Black, silver buckle, with mesh bag",
+    "Department": "Fitness"
+  },
+  "whats_included": [
+    "Ankle straps and resistance bands per variant",
+    "1 x mesh carry bag"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Ankle Strap Resistance Band Set: photo 1",
+      "full": "assets/img/ankle-strap-resistance-band-set/01-01.webp",
+      "w": 1200,
+      "h": 1200,
+      "card": "assets/img/ankle-strap-resistance-band-set/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/ankle-strap-resistance-band-set/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Ankle Strap Resistance Band Set: photo 2",
+      "full": "assets/img/ankle-strap-resistance-band-set/02-02.webp",
+      "w": 1200,
+      "h": 1200,
+      "thumb": "assets/img/ankle-strap-resistance-band-set/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Ankle Strap Resistance Band Set: photo 3",
+      "full": "assets/img/ankle-strap-resistance-band-set/03-03.webp",
+      "w": 1200,
+      "h": 1200,
+      "thumb": "assets/img/ankle-strap-resistance-band-set/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Ankle Strap Resistance Band Set: photo 4",
+      "full": "assets/img/ankle-strap-resistance-band-set/04-04.webp",
+      "w": 1200,
+      "h": 1200,
+      "thumb": "assets/img/ankle-strap-resistance-band-set/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Ankle Strap Resistance Band Set: photo 5",
+      "full": "assets/img/ankle-strap-resistance-band-set/05-05.webp",
+      "w": 1200,
+      "h": 1200,
+      "thumb": "assets/img/ankle-strap-resistance-band-set/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:45"
+}

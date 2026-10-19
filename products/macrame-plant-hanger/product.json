@@ -1,0 +1,44 @@
+{
+  "name": "Cotton Rope Macrame Plant Hanger",
+  "slug": "macrame-plant-hanger",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 17.99,
+  "summary": "Hand-woven cotton rope hanger for small flower pots. Adds greenery to windows and corners.",
+  "tags": [
+    "plant hanger",
+    "macrame",
+    "hanging planter",
+    "boho decor",
+    "indoor plants",
+    "cotton rope",
+    "home decor"
+  ],
+  "specs": {
+    "Material": "Cotton rope",
+    "Size": "Small (S)",
+    "Pot": "Not included",
+    "Department": "Home Decor"
+  },
+  "whats_included": [
+    "1 x macrame plant hanger"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Cotton Rope Macrame Plant Hanger: photo 1",
+      "full": "assets/img/macrame-plant-hanger/01-01.webp",
+      "w": 1500,
+      "h": 1500,
+      "card": "assets/img/macrame-plant-hanger/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/macrame-plant-hanger/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:59"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Stretch Suitcase Protector Cover (18–20\")",
+  "slug": "stretch-luggage-protector-cover",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 20.99,
+  "summary": "Stretchy suitcase cover that protects 18–20\" luggage from scuffs and dust and makes it easy to spot on the carousel.",
+  "tags": [
+    "luggage cover",
+    "suitcase protector",
+    "travel",
+    "stretch cover",
+    "dustproof",
+    "carry on",
+    "luggage"
+  ],
+  "specs": {
+    "Material": "Stretch fabric",
+    "Fits": "S, 18–20 in",
+    "Colour": "Yellow",
+    "Department": "Travel"
+  },
+  "whats_included": [
+    "1 x luggage cover"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 1",
+      "full": "assets/img/stretch-luggage-protector-cover/01-01.webp",
+      "w": 800,
+      "h": 1072,
+      "card": "assets/img/stretch-luggage-protector-cover/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/stretch-luggage-protector-cover/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 322
+    },
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 2",
+      "full": "assets/img/stretch-luggage-protector-cover/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/stretch-luggage-protector-cover/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 3",
+      "full": "assets/img/stretch-luggage-protector-cover/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/stretch-luggage-protector-cover/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 4",
+      "full": "assets/img/stretch-luggage-protector-cover/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/stretch-luggage-protector-cover/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 5",
+      "full": "assets/img/stretch-luggage-protector-cover/05-05.webp",
+      "w": 800,
+      "h": 1072,
+      "thumb": "assets/img/stretch-luggage-protector-cover/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 322
+    },
+    {
+      "alt": "Stretch Suitcase Protector Cover (18–20\"): photo 6",
+      "full": "assets/img/stretch-luggage-protector-cover/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/stretch-luggage-protector-cover/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:07"
+}

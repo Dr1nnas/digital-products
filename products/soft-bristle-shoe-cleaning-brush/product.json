@@ -1,0 +1,106 @@
+{
+  "name": "Soft-Bristle Shoe Cleaning Brush",
+  "slug": "soft-bristle-shoe-cleaning-brush",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 18.99,
+  "summary": "Ergonomic soft-bristle brush for scrubbing trainers, canvas shoes and laundry stains.",
+  "tags": [
+    "shoe brush",
+    "sneaker cleaning",
+    "cleaning brush",
+    "laundry brush",
+    "household",
+    "soft bristles",
+    "shoe care"
+  ],
+  "specs": {
+    "Material": "Plastic, soft bristles",
+    "Colour": "Milk yellow / green",
+    "Department": "Home & Cleaning"
+  },
+  "whats_included": [
+    "1 x shoe brush"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 1",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/soft-bristle-shoe-cleaning-brush/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 2",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 3",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 4",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 5",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 6",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 7",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/07-07.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/07-07-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft-Bristle Shoe Cleaning Brush: photo 8",
+      "full": "assets/img/soft-bristle-shoe-cleaning-brush/08-08.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/soft-bristle-shoe-cleaning-brush/08-08-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:04"
+}

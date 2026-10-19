@@ -1,0 +1,45 @@
+{
+  "name": "Car Seat Gap Organizer with Cup Slot (Driver Side)",
+  "slug": "car-seat-gap-organizer",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 33.99,
+  "summary": "Fills the gap between seat and console so phones, keys and cards stop disappearing, with a built-in cup slot.",
+  "tags": [
+    "car organizer",
+    "seat gap filler",
+    "car storage",
+    "console organizer",
+    "cup holder",
+    "car accessories",
+    "driver side"
+  ],
+  "specs": {
+    "Material": "Faux leather (PU)",
+    "Size (variant)": "approx. 21 x 13 cm footprint",
+    "Colour": "Red (driver side)",
+    "Fit": "Universal, most car seats",
+    "Department": "Car Accessories"
+  },
+  "whats_included": [
+    "1 x seat gap organizer (driver side)"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Car Seat Gap Organizer with Cup Slot (Driver Side): photo 1",
+      "full": "assets/img/car-seat-gap-organizer/01-01.webp",
+      "w": 1600,
+      "h": 1600,
+      "card": "assets/img/car-seat-gap-organizer/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/car-seat-gap-organizer/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:46"
+}

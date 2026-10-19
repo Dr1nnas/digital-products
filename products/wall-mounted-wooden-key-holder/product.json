@@ -1,0 +1,62 @@
+{
+  "name": "Wall-Mounted Wooden Key Holder with Shelf",
+  "slug": "wall-mounted-wooden-key-holder",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 36.99,
+  "summary": "Wooden entryway key rack with hooks and a small shelf for post and sunglasses.",
+  "tags": [
+    "key holder",
+    "key rack",
+    "wall organizer",
+    "entryway",
+    "wooden",
+    "home decor",
+    "mail holder"
+  ],
+  "specs": {
+    "Material": "Wood / bamboo",
+    "Colour": "Natural wood",
+    "Finish": "Polished",
+    "Department": "Home Decor"
+  },
+  "whats_included": [
+    "1 x wooden key holder"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 1",
+      "full": "assets/img/wall-mounted-wooden-key-holder/01-02.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/wall-mounted-wooden-key-holder/01-02-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/wall-mounted-wooden-key-holder/01-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 2",
+      "full": "assets/img/wall-mounted-wooden-key-holder/02-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/wall-mounted-wooden-key-holder/02-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 3",
+      "full": "assets/img/wall-mounted-wooden-key-holder/03-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/wall-mounted-wooden-key-holder/03-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:10"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Pet Bath Brush with Shampoo Dispenser",
+  "slug": "pet-shampoo-bath-brush",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 22.99,
+  "summary": "Soft-bristle bath brush with a refillable shampoo chamber in the handle. Lathers and massages in one step.",
+  "tags": [
+    "pet bath brush",
+    "shampoo brush",
+    "dog grooming",
+    "cat grooming",
+    "bath time",
+    "soft bristles",
+    "pet supplies"
+  ],
+  "specs": {
+    "Material": "PP plastic, soft rubber bristles",
+    "Colour": "Yellow",
+    "Variant": "Shampoo brush (ZY71)",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x pet shampoo bath brush"
+  ],
+  "shipping_estimate": "Est. 8-15 days to Norway",
+  "images": [
+    {
+      "alt": "Pet Bath Brush with Shampoo Dispenser: photo 1",
+      "full": "assets/img/pet-shampoo-bath-brush/01-01.webp",
+      "w": 1254,
+      "h": 1254,
+      "card": "assets/img/pet-shampoo-bath-brush/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/pet-shampoo-bath-brush/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:01"
+}

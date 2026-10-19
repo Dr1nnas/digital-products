@@ -1,0 +1,107 @@
+{
+  "name": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm",
+  "slug": "woven-cotton-linen-tassel-rug",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 40.99,
+  "summary": "Hand-woven Scandinavian-style cotton-linen rug with tassels, 60 x 90 cm, for hallways, bedsides and kitchens.",
+  "tags": [
+    "rug",
+    "cotton rug",
+    "scandinavian",
+    "tassel rug",
+    "doormat",
+    "bedroom rug",
+    "home decor"
+  ],
+  "specs": {
+    "Material": "Cotton and linen",
+    "Size": "60 x 90 cm",
+    "Pattern": "Leaves",
+    "Department": "Home Decor"
+  },
+  "whats_included": [
+    "1 x rug"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 1",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/woven-cotton-linen-tassel-rug/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 2",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 3",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 4",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/04-04.webp",
+      "w": 1000,
+      "h": 1000,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 5",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 6",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 7",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/07-07.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/07-07-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Woven Cotton-Linen Rug with Tassels, 60 x 90 cm: photo 8",
+      "full": "assets/img/woven-cotton-linen-tassel-rug/08-08.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/woven-cotton-linen-tassel-rug/08-08-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:15"
+}

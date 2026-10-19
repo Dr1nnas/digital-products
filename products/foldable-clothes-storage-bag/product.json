@@ -1,0 +1,98 @@
+{
+  "name": "Foldable Clothes and Bedding Storage Bag with Handles",
+  "slug": "foldable-clothes-storage-bag",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 18.99,
+  "summary": "Foldable fabric storage bag with double zip and carry handles for clothes, duvets and seasonal items.",
+  "tags": [
+    "storage bag",
+    "clothes storage",
+    "bedding storage",
+    "under bed",
+    "foldable",
+    "closet organizer",
+    "moving bag"
+  ],
+  "specs": {
+    "Material": "Fabric",
+    "Size (variant)": "Small, 35 x 25 x 20 cm",
+    "Closure": "Double zipper",
+    "Department": "Storage & Organization"
+  },
+  "whats_included": [
+    "1 x storage bag"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 1",
+      "full": "assets/img/foldable-clothes-storage-bag/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/foldable-clothes-storage-bag/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/foldable-clothes-storage-bag/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 2",
+      "full": "assets/img/foldable-clothes-storage-bag/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 3",
+      "full": "assets/img/foldable-clothes-storage-bag/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 4",
+      "full": "assets/img/foldable-clothes-storage-bag/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 5",
+      "full": "assets/img/foldable-clothes-storage-bag/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 6",
+      "full": "assets/img/foldable-clothes-storage-bag/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Foldable Clothes and Bedding Storage Bag with Handles: photo 7",
+      "full": "assets/img/foldable-clothes-storage-bag/07-07.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/foldable-clothes-storage-bag/07-07-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:57"
+}

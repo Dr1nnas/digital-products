@@ -1,0 +1,89 @@
+{
+  "name": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm)",
+  "slug": "coral-fleece-pet-blanket",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 23.99,
+  "summary": "Soft coral fleece blanket with paw-print pattern for dogs and cats, 76 x 104 cm.",
+  "tags": [
+    "pet blanket",
+    "dog blanket",
+    "cat blanket",
+    "fleece",
+    "paw print",
+    "pet bed",
+    "washable"
+  ],
+  "specs": {
+    "Material": "Coral fleece",
+    "Size": "M, 76 x 104 cm",
+    "Pattern": "Camel paw print",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x pet blanket"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 1",
+      "full": "assets/img/coral-fleece-pet-blanket/01-01.webp",
+      "w": 1500,
+      "h": 1472,
+      "card": "assets/img/coral-fleece-pet-blanket/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/coral-fleece-pet-blanket/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 236
+    },
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 2",
+      "full": "assets/img/coral-fleece-pet-blanket/02-02.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/coral-fleece-pet-blanket/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 3",
+      "full": "assets/img/coral-fleece-pet-blanket/03-03.webp",
+      "w": 1483,
+      "h": 1500,
+      "thumb": "assets/img/coral-fleece-pet-blanket/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 243
+    },
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 4",
+      "full": "assets/img/coral-fleece-pet-blanket/04-04.webp",
+      "w": 1348,
+      "h": 1500,
+      "thumb": "assets/img/coral-fleece-pet-blanket/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 267
+    },
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 5",
+      "full": "assets/img/coral-fleece-pet-blanket/05-05.webp",
+      "w": 1488,
+      "h": 1500,
+      "thumb": "assets/img/coral-fleece-pet-blanket/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 242
+    },
+    {
+      "alt": "Soft Coral Fleece Pet Blanket, Paw Print (76 x 104 cm): photo 6",
+      "full": "assets/img/coral-fleece-pet-blanket/06-06.webp",
+      "w": 1500,
+      "h": 1358,
+      "thumb": "assets/img/coral-fleece-pet-blanket/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 217
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:53"
+}

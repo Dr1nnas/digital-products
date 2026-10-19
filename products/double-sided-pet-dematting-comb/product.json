@@ -1,0 +1,53 @@
+{
+  "name": "Double-Sided Pet Dematting Comb",
+  "slug": "double-sided-pet-dematting-comb",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 19.99,
+  "summary": "Two-sided stainless-steel grooming comb that loosens tangles and removes loose undercoat on dogs and cats.",
+  "tags": [
+    "pet comb",
+    "dematting tool",
+    "deshedding",
+    "dog brush",
+    "cat brush",
+    "grooming",
+    "pet supplies"
+  ],
+  "specs": {
+    "Material": "Stainless steel teeth, PP+TPR handle",
+    "Size": "approx. 7 x 17.5 cm",
+    "Colour": "Pink",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x dematting comb"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Double-Sided Pet Dematting Comb: photo 1",
+      "full": "assets/img/double-sided-pet-dematting-comb/01-01.webp",
+      "w": 1600,
+      "h": 1600,
+      "card": "assets/img/double-sided-pet-dematting-comb/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/double-sided-pet-dematting-comb/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Double-Sided Pet Dematting Comb: photo 2",
+      "full": "assets/img/double-sided-pet-dematting-comb/02-02.webp",
+      "w": 1600,
+      "h": 1600,
+      "thumb": "assets/img/double-sided-pet-dematting-comb/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:54"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Waffle-Weave Cotton Table Runner, 33 x 140 cm",
+  "slug": "waffle-cotton-table-runner",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 25.99,
+  "summary": "Simple waffle-weave cotton table runner with tassel ends, 33 x 140 cm.",
+  "tags": [
+    "table runner",
+    "cotton",
+    "waffle weave",
+    "tassel",
+    "dining room",
+    "home decor",
+    "table linen"
+  ],
+  "specs": {
+    "Material": "Cotton",
+    "Size": "33 x 140 cm",
+    "Pattern": "Waffle",
+    "Department": "Home Decor"
+  },
+  "whats_included": [
+    "1 x table runner"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 1",
+      "full": "assets/img/waffle-cotton-table-runner/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/waffle-cotton-table-runner/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/waffle-cotton-table-runner/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 2",
+      "full": "assets/img/waffle-cotton-table-runner/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 3",
+      "full": "assets/img/waffle-cotton-table-runner/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 4",
+      "full": "assets/img/waffle-cotton-table-runner/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 5",
+      "full": "assets/img/waffle-cotton-table-runner/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 6",
+      "full": "assets/img/waffle-cotton-table-runner/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 7",
+      "full": "assets/img/waffle-cotton-table-runner/07-07.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/07-07-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Waffle-Weave Cotton Table Runner, 33 x 140 cm: photo 8",
+      "full": "assets/img/waffle-cotton-table-runner/08-08.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/waffle-cotton-table-runner/08-08-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:09"
+}

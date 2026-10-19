@@ -32,7 +32,7 @@ INTERNAL_DIR = Path(os.environ.get("STORE_INTERNAL_DIR", "/workspace/products/in
 INTERNAL_FIELDS = ("supplier_url", "unit_cost_usd", "moq", "supplier", "supplier_sku", "cost_notes")
 PUBLIC_KEYS = ("name", "slug", "type", "category", "version", "price_usd", "compare_at_usd",
                "summary", "tags", "specs", "whats_included", "compatibility", "license_note",
-               "disclaimer", "shipping_estimate", "lead_time_days", "created", "added",
+               "disclaimer", "shipping_estimate", "created", "added",
                "featured", "order", "price_note", "images", "download")
 
 # ---------------------------------------------------------------- markdown helpers (for gumroad only)
@@ -104,14 +104,29 @@ def load_code_folder(d):
                 compatibility=[], license_note=" ".join(sec("license summary").replace("(for the listing page)", "").split()),
                 disclaimer="", created="", zip=str(zips[0]), images=images)
 
+SPEC_PRIVATE_RE = re.compile(r"^(cj\b|pricing|image note|vat note)|cost|margin|sku|supplier url", re.I)
+ALLOWED_IMAGE_LICENSES = ("supplier-permitted-for-resale",)
+
+def public_shipping(est):
+    """Turn a supplier shipping record into customer-facing text (no costs, no carrier names)."""
+    if isinstance(est, dict):
+        days = est.get("days") or ""
+        to = {"NO": "Norway"}.get(est.get("to", ""), est.get("to", ""))
+        return f"Est. {days} days{' to ' + to if to else ''}".strip() if days else ""
+    return str(est or "")
+
 def load_supplier_folder(d):
     d = Path(d)
     pj = json.loads((d / "product.json").read_text(encoding="utf-8"))
     kind = pj.get("type", "digital")
     if kind not in ("digital", "physical"):
         sys.exit(f"{d}: type must be 'digital' or 'physical'")
-    if kind == "physical" and str(pj.get("image_license", "unknown")).lower() == "unknown":
-        sys.exit(f"{d}: refusing physical product with image_license 'unknown'")
+    lic = str(pj.get("image_license", "unknown")).lower()
+    if kind == "physical":
+        if lic == "unknown":
+            sys.exit(f"{d}: refusing physical product with image_license 'unknown'")
+        if lic not in ALLOWED_IMAGE_LICENSES or not pj.get("image_license_terms_url"):
+            sys.exit(f"{d}: refusing physical product: image_license must be one of {ALLOWED_IMAGE_LICENSES} with image_license_terms_url")
     desc = (d / "description.md").read_text(encoding="utf-8") if (d / "description.md").exists() else ""
     images = [str(d / p) for p in pj.get("images", [])]
     if pj.get("preview") and str(d / pj["preview"]) not in images:
@@ -120,18 +135,23 @@ def load_supplier_folder(d):
     zips = [f for f in files if f.endswith(".zip")]
     if kind == "digital" and not zips:
         sys.exit(f"{d}: digital supplier product needs a .zip in files[]")
-    internal = {k: pj[k] for k in INTERNAL_FIELDS if k in pj}
-    internal.update(slug=pj["slug"], image_license=pj.get("image_license", ""),
-                    shipping_estimate=pj.get("shipping_estimate", ""), lead_time_days=pj.get("lead_time_days"))
+    specs = {}
+    for k, v in (pj.get("specs") or {}).items():
+        if SPEC_PRIVATE_RE.search(k):
+            continue
+        specs[k.replace(" (supplier stated)", " (stated)")] = v
+    internal = dict(pj)  # full original record stays internal (supplier_url, costs, CJ ids, notes...)
+    internal["_source_folder"] = str(d)
     return dict(name=pj.get("name") or pj["title"], slug=pj["slug"], type=kind,
                 category=pj.get("category", "physical-products" if kind == "physical" else ""),
                 version=str(pj.get("version", "1.0")), price_usd=float(pj["price_usd"]),
                 compare_at_usd=pj.get("compare_at_usd"), summary=pj.get("summary", ""),
-                description_md=desc, tags=pj.get("tags", []), specs=pj.get("specs", {}),
+                description_md=desc, tags=pj.get("tags", []), specs=specs,
                 whats_included=pj.get("whats_included", []), compatibility=pj.get("compatibility", []),
                 license_note=pj.get("license", ""), disclaimer=pj.get("disclaimer", ""),
-                shipping_estimate=pj.get("shipping_estimate", ""), lead_time_days=pj.get("lead_time_days"),
-                created=pj.get("created", ""), zip=zips[0] if zips else None, images=images, _internal=internal)
+                shipping_estimate=public_shipping(pj.get("shipping_estimate")),
+                created=pj.get("created", ""), zip=zips[0] if zips else None, images=images,
+                _internal=internal)
 
 def load_folder(d):
     d = Path(d)
@@ -172,9 +192,9 @@ def optimise_images(slug, sources, name=""):
         im = Image.open(src)
         im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
         stem = re.sub(r"^[0-9]+-", "", re.sub(r"[^a-z0-9]+", "-", src.stem.lower()).strip("-")) or "image"
-        label_txt = stem.replace("-", " ").capitalize()
-        entry = {"alt": f"{name}: {label_txt}" if name else label_txt}
         n = len(result) + 1
+        label_txt = f"photo {n}" if stem.isdigit() else stem.replace("-", " ").capitalize()
+        entry = {"alt": f"{name}: {label_txt}" if name else label_txt}
         for label, width, q in (("full", 1600, 80), ("card", 800, 78), ("thumb", 240, 72)):
             if label == "card" and result: continue
             src_im = im

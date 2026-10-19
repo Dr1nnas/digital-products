@@ -1,0 +1,64 @@
+{
+  "name": "Thick Coral Fleece Car Cleaning Cloth, 30 x 30 cm",
+  "slug": "coral-fleece-microfiber-car-cloth",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 14.99,
+  "summary": "Thick, absorbent two-tone coral-fleece cloth for drying and polishing cars, plus household cleaning.",
+  "tags": [
+    "microfiber cloth",
+    "car cleaning",
+    "coral fleece",
+    "drying towel",
+    "car care",
+    "household cleaning",
+    "absorbent"
+  ],
+  "specs": {
+    "Material": "Coral fleece",
+    "Size": "30 x 30 cm",
+    "Weight": "600 gsm",
+    "Colour": "Yellow/grey",
+    "Quantity": "1",
+    "Department": "Car Accessories"
+  },
+  "whats_included": [
+    "1 x cleaning cloth"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Thick Coral Fleece Car Cleaning Cloth, 30 x 30 cm: photo 1",
+      "full": "assets/img/coral-fleece-microfiber-car-cloth/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/coral-fleece-microfiber-car-cloth/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/coral-fleece-microfiber-car-cloth/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Thick Coral Fleece Car Cleaning Cloth, 30 x 30 cm: photo 2",
+      "full": "assets/img/coral-fleece-microfiber-car-cloth/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/coral-fleece-microfiber-car-cloth/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Thick Coral Fleece Car Cleaning Cloth, 30 x 30 cm: photo 3",
+      "full": "assets/img/coral-fleece-microfiber-car-cloth/03-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/coral-fleece-microfiber-car-cloth/03-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:50"
+}

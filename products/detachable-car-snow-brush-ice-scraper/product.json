@@ -1,0 +1,89 @@
+{
+  "name": "Detachable Car Snow Brush with Ice Scraper",
+  "slug": "detachable-car-snow-brush-ice-scraper",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 33.99,
+  "summary": "Two-in-one snow brush and ice scraper with a rotating head and foam grip that clicks apart for storage.",
+  "tags": [
+    "snow brush",
+    "ice scraper",
+    "winter car",
+    "windshield",
+    "car accessories",
+    "frost",
+    "norway winter"
+  ],
+  "specs": {
+    "Material": "ABS shaft, PVC bristles, EVA foam grip",
+    "Colour": "Blue",
+    "Department": "Car Accessories"
+  },
+  "whats_included": [
+    "1 x snow brush",
+    "1 x ice scraper (detachable)"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 1",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/detachable-car-snow-brush-ice-scraper/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 2",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/02-02.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 3",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 4",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/04-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 5",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/05-05.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Detachable Car Snow Brush with Ice Scraper: photo 6",
+      "full": "assets/img/detachable-car-snow-brush-ice-scraper/06-06.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/detachable-car-snow-brush-ice-scraper/06-06-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:54"
+}

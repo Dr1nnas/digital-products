@@ -1,0 +1,54 @@
+{
+  "name": "Wooden Window-Sill Cat Bed with Cushion",
+  "slug": "window-sill-cat-bed",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 53.99,
+  "summary": "Wooden window-sill perch with a soft cushion so your cat can sunbathe and watch outside.",
+  "tags": [
+    "cat bed",
+    "window perch",
+    "cat hammock",
+    "wooden",
+    "cat furniture",
+    "window seat",
+    "pet supplies"
+  ],
+  "specs": {
+    "Material": "Wood frame, cotton cushion",
+    "Size": "approx. 62 x 38 cm",
+    "Colour": "Natural wood",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x wooden cat bed frame",
+    "1 x cotton cushion"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Wooden Window-Sill Cat Bed with Cushion: photo 1",
+      "full": "assets/img/window-sill-cat-bed/01-01.webp",
+      "w": 1200,
+      "h": 1200,
+      "card": "assets/img/window-sill-cat-bed/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/window-sill-cat-bed/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Wooden Window-Sill Cat Bed with Cushion: photo 2",
+      "full": "assets/img/window-sill-cat-bed/02-02.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/window-sill-cat-bed/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:14"
+}

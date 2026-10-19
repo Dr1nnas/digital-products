@@ -1,0 +1,82 @@
+{
+  "name": "Solid Wood Floating Wall Shelf (Black)",
+  "slug": "solid-wood-floating-wall-shelf",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 46.99,
+  "summary": "Minimalist solid-wood wall shelf with hidden bracket, for books, plants or bathroom essentials.",
+  "tags": [
+    "floating shelf",
+    "wall shelf",
+    "wood shelf",
+    "home decor",
+    "living room",
+    "bathroom shelf",
+    "minimalist"
+  ],
+  "specs": {
+    "Material": "Solid wood",
+    "Colour": "Black",
+    "Pieces": "1",
+    "Package size": "approx. 44 x 19 x 6 cm",
+    "Department": "Home Decor"
+  },
+  "whats_included": [
+    "1 x wall shelf",
+    "Mounting bracket"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Solid Wood Floating Wall Shelf (Black): photo 1",
+      "full": "assets/img/solid-wood-floating-wall-shelf/01-01.webp",
+      "w": 1500,
+      "h": 1500,
+      "card": "assets/img/solid-wood-floating-wall-shelf/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/solid-wood-floating-wall-shelf/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Solid Wood Floating Wall Shelf (Black): photo 2",
+      "full": "assets/img/solid-wood-floating-wall-shelf/02-02.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/solid-wood-floating-wall-shelf/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Solid Wood Floating Wall Shelf (Black): photo 3",
+      "full": "assets/img/solid-wood-floating-wall-shelf/03-03.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/solid-wood-floating-wall-shelf/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Solid Wood Floating Wall Shelf (Black): photo 4",
+      "full": "assets/img/solid-wood-floating-wall-shelf/04-04.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/solid-wood-floating-wall-shelf/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Solid Wood Floating Wall Shelf (Black): photo 5",
+      "full": "assets/img/solid-wood-floating-wall-shelf/05-05.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/solid-wood-floating-wall-shelf/05-05-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:06"
+}

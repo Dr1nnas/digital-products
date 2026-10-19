@@ -1,0 +1,62 @@
+{
+  "name": "Pet Grooming and Deshedding Glove",
+  "slug": "pet-grooming-glove",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 13.99,
+  "summary": "Soft silicone-nub grooming glove that lifts loose fur while you stroke your dog or cat. Also works at bath time.",
+  "tags": [
+    "grooming glove",
+    "deshedding",
+    "pet brush",
+    "cat grooming",
+    "dog grooming",
+    "silicone",
+    "bath time"
+  ],
+  "specs": {
+    "Material": "Fabric with silicone bristles",
+    "Colour": "Black",
+    "Quantity": "1 glove",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x grooming glove"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Pet Grooming and Deshedding Glove: photo 1",
+      "full": "assets/img/pet-grooming-glove/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/pet-grooming-glove/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/pet-grooming-glove/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Pet Grooming and Deshedding Glove: photo 2",
+      "full": "assets/img/pet-grooming-glove/02-03.webp",
+      "w": 1001,
+      "h": 1001,
+      "thumb": "assets/img/pet-grooming-glove/02-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Pet Grooming and Deshedding Glove: photo 3",
+      "full": "assets/img/pet-grooming-glove/03-04.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/pet-grooming-glove/03-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:06:01"
+}

@@ -254,7 +254,6 @@ def specs_rows(p):
         rows.append((k, ", ".join(map(str, v)) if isinstance(v, list) else v))
     if is_physical(p):
         if p.get("shipping_estimate"): rows.append(("Shipping", p["shipping_estimate"]))
-        if p.get("lead_time_days"): rows.append(("Ships within", f'{p["lead_time_days"]} days'))
     if p.get("license_note") and not is_physical(p): rows.append(("License", p["license_note"]))
     if p.get("created"): rows.append(("Added", p["created"]))
     return "".join(f"<tr><th>{esc(k)}</th><td>{esc(v)}</td></tr>" for k, v in rows)
@@ -291,6 +290,9 @@ def product_page(ctx, p, related):
                f'<p class="small muted">Instant download, no sign-up. Free during launch.</p>')
         cta2 = f'<a class="btn btn-block" href="{dl["url"]}">Download free</a>'
     pnote = f'<p class="small muted pnote">{esc(p["price_note"])}</p>' if p.get("price_note") else ""
+    if is_physical(p):
+        ship = f' · Shipping: {esc(p["shipping_estimate"])}' if p.get("shipping_estimate") else ""
+        pnote += f'<p class="small muted pnote">Price excl. VAT and shipping; shipping estimate shown.{ship}</p>'
     disclaimer = f'<p class="disclaimer">{esc(p["disclaimer"])}</p>' if p.get("disclaimer") else ""
     lic = p.get("license_note", "")
     lic_html = "" if is_physical(p) else f'<p class="small"><strong>License:</strong> {esc(lic or "See the license in the download.")}{"" if re.search(r"resell|resale", lic, re.I) else " No resale or redistribution."}</p>'

@@ -1,0 +1,71 @@
+{
+  "name": "Car Trunk Pet Barrier Net (120 x 70 cm)",
+  "slug": "car-trunk-pet-barrier-net",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 30.99,
+  "summary": "Elastic mesh net that separates the boot from the cabin and helps keep dogs in the cargo area of a hatchback or SUV.",
+  "tags": [
+    "pet barrier",
+    "dog net",
+    "car trunk",
+    "hatchback",
+    "car accessories",
+    "dog travel",
+    "cargo net"
+  ],
+  "specs": {
+    "Material": "Mesh",
+    "Size": "120 x 70 cm",
+    "Colour": "Black",
+    "Department": "Car Accessories"
+  },
+  "whats_included": [
+    "1 x barrier net with hooks/straps"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Car Trunk Pet Barrier Net (120 x 70 cm): photo 1",
+      "full": "assets/img/car-trunk-pet-barrier-net/01-01.webp",
+      "w": 1500,
+      "h": 1500,
+      "card": "assets/img/car-trunk-pet-barrier-net/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/car-trunk-pet-barrier-net/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Car Trunk Pet Barrier Net (120 x 70 cm): photo 2",
+      "full": "assets/img/car-trunk-pet-barrier-net/02-02.webp",
+      "w": 1440,
+      "h": 1920,
+      "thumb": "assets/img/car-trunk-pet-barrier-net/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 320
+    },
+    {
+      "alt": "Car Trunk Pet Barrier Net (120 x 70 cm): photo 3",
+      "full": "assets/img/car-trunk-pet-barrier-net/03-03.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/car-trunk-pet-barrier-net/03-03-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Car Trunk Pet Barrier Net (120 x 70 cm): photo 4",
+      "full": "assets/img/car-trunk-pet-barrier-net/04-04.webp",
+      "w": 1500,
+      "h": 1500,
+      "thumb": "assets/img/car-trunk-pet-barrier-net/04-04-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:49"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Macrame Hanging Cat Hammock",
+  "slug": "macrame-hanging-cat-hammock",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 31.99,
+  "summary": "Hand-knotted macrame cat swing that hangs from a ceiling hook. Doubles as boho room decor.",
+  "tags": [
+    "cat hammock",
+    "macrame",
+    "cat bed",
+    "hanging bed",
+    "boho",
+    "pet furniture",
+    "cat swing"
+  ],
+  "specs": {
+    "Material": "Cotton rope (macrame)",
+    "Variant": "Bed",
+    "Package size": "approx. 17 x 18 x 10 cm",
+    "Department": "Pet Supplies"
+  },
+  "whats_included": [
+    "1 x macrame cat hammock"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Macrame Hanging Cat Hammock: photo 1",
+      "full": "assets/img/macrame-hanging-cat-hammock/01-01.webp",
+      "w": 1200,
+      "h": 1200,
+      "card": "assets/img/macrame-hanging-cat-hammock/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/macrame-hanging-cat-hammock/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:05:59"
+}
