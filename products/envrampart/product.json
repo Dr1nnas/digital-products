@@ -1,0 +1,50 @@
+{
+  "name": "envrampart: .env Validator & Secret Scanner CLI",
+  "slug": "envrampart",
+  "version": "1.0.0",
+  "price_usd": 19.0,
+  "price_note": "one-time; team license, up to 10 developers",
+  "summary": "A zero-dependency CLI that checks your `.env` files against a simple schema, keeps `.env.example` and config docs in sync, and catches real secrets before they get committed.",
+  "tags": [
+    "dotenv",
+    "env",
+    "configuration",
+    "validation",
+    "devops",
+    "ci",
+    "github-actions",
+    "secrets",
+    "python",
+    "cli",
+    "developer-tools"
+  ],
+  "compatibility": [
+    "Python 3.8 or newer",
+    "Linux, macOS and Windows",
+    "Any stack that uses .env files (Node, Go, Rails, Django, Laravel, Docker Compose)"
+  ],
+  "license_note": "Unlimited personal, commercial, and client projects. You may vendor it into your repos and container images. You may not resell or republish the tool itself. One purchase covers up to 10 developers.",
+  "disclaimer": "",
+  "created": "",
+  "images": [
+    {
+      "alt": "envrampart: .env Validator & Secret Scanner CLI: Preview",
+      "full": "assets/img/envrampart/01-preview.webp",
+      "w": 1200,
+      "h": 630,
+      "card": "assets/img/envrampart/01-preview-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/envrampart/01-preview-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 126
+    }
+  ],
+  "download": {
+    "tag": "envrampart-v1.0.0",
+    "filename": "envrampart-1.0.0.zip",
+    "size_bytes": 21703,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/envrampart-v1.0.0/envrampart-1.0.0.zip"
+  },
+  "order": 3
+}

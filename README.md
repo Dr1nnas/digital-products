@@ -49,6 +49,27 @@ python3 scripts/add_product.py /path/to/product/web \
 Optional `product.json` keys the script also understands: `gallery` (list of extra image
 paths), `disclaimer` (shown under the Download button).
 
+### From a code-product folder (Product Maker: Code)
+
+```
+2026-10-19-envrampart/
+  listing.md        "# name: tagline", "**Suggested price:** $19 USD (one-time; ...)",
+                    "## Short description", "## License summary", "## Tags"
+  description.md    long description (fenced code blocks supported; "## Price" is dropped,
+                    "## What's included" becomes the sidebar box)
+  preview.png       hero image (any ratio; the card version is padded to 5:4, not cropped)
+  <name>-1.0.0.zip  published as the Release asset; version is read from the file name
+```
+
+```bash
+python3 scripts/add_product.py /path/to/2026-10-19-envrampart \
+  --name "envrampart: .env Validator & Secret Scanner CLI" \
+  --compat "Python 3.8 or newer" "Linux, macOS and Windows" --release --push
+```
+
+The slug is the folder name without the date prefix. The script auto-detects the format:
+`product.json` (or a `web/` subfolder with one) = web package; `listing.md` + `description.md` + zip = code folder.
+
 ### From a legacy listing file (gumroad.md format)
 
 ```bash
@@ -65,6 +86,7 @@ python3 scripts/add_product.py --listing gumroad.md --zip Product-v1.0.zip \
 | *(none)* | writes `products/<slug>/`, images, and regenerates all HTML locally |
 | `--push` | `git add -A && git commit && git push origin main` (Pages redeploys in ~1 min) |
 | `--release` | creates Release `<slug>-v<version>` with the zip (or re-uploads it with `--clobber`) |
+| `--name`, `--price-note`, `--compat`, `--license-note`, `--disclaimer` | override/add display fields |
 | `--order N` | position on the home page (lower first; default 100) |
 | `--rebuild` | regenerate HTML for all products from `products/*/product.json` (e.g. after a CSS/template change) |
 

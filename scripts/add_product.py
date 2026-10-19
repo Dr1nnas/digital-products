@@ -53,6 +53,19 @@ def md_to_html(md, shift=1):
         line = lines[i].rstrip()
         if not line.strip() or re.match(r"^\s*!\[.*\]\(.*\)\s*$", line):
             i += 1; continue
+        if line.lstrip().startswith("```"):
+            i += 1; code = []
+            while i < len(lines) and not lines[i].lstrip().startswith("```"):
+                code.append(lines[i]); i += 1
+            i += 1
+            out.append("<pre><code>" + html.escape("\n".join(code), quote=False) + "</code></pre>"); continue
+        if re.fullmatch(r"\s*(-{3,}|\*{3,}|_{3,})\s*", line):
+            i += 1; continue
+        if line.startswith("    ") and (not out or not out[-1].startswith("<ul")):
+            code = []
+            while i < len(lines) and (lines[i].startswith("    ") or not lines[i].strip()):
+                code.append(lines[i][4:]); i += 1
+            out.append("<pre><code>" + html.escape("\n".join(code).rstrip(), quote=False) + "</code></pre>"); continue
         m = re.match(r"^(#{1,6})\s+(.*)", line)
         if m:
             lvl = min(6, len(m.group(1)) + shift)
@@ -78,7 +91,7 @@ def md_to_html(md, shift=1):
             tag = "ol" if ordered else "ul"
             out.append(f"<{tag}>" + "".join(f"<li>{inline(x)}</li>" for x in items) + f"</{tag}>"); continue
         para = []
-        while i < len(lines) and lines[i].strip() and not re.match(r"^(#{1,6}\s|\s*([-*]|\d+[.)])\s|\s*\|)", lines[i]):
+        while i < len(lines) and lines[i].strip() and not re.match(r"^(#{1,6}\s|\s*([-*]|\d+[.)])\s|\s*\||\s*```)", lines[i]):
             para.append(lines[i].strip()); i += 1
         out.append("<p>" + inline(" ".join(para)) + "</p>")
     return "\n".join(out)
@@ -144,7 +157,50 @@ def load_web_package(d):
                 license_note=pj.get("license", ""), disclaimer=pj.get("disclaimer", ""),
                 created=pj.get("created", ""), zip=str(d / zips[0]["path"]), images=images)
 
+def load_code_folder(d):
+    """Code-product folder: listing.md + description.md + preview.png + <name>-<version>.zip"""
+    d = Path(d)
+    listing = (d / "listing.md").read_text(encoding="utf-8")
+    secs = {k.strip().lower(): v.strip() for k, v in
+            re.findall(r"^##\s+(.+?)\n(.*?)(?=^##\s|\Z)", listing, flags=re.M | re.S)}
+    def sec(prefix):
+        return next((v for k, v in secs.items() if k.startswith(prefix)), "")
+    h1 = re.search(r"^#\s+(.+)$", listing, flags=re.M).group(1).strip()
+    name = h1.split(":")[0].strip()
+    pm = re.search(r"price:?\**\s*\$([\d.]+)\s*(?:USD)?\s*\(?([^).\n]*)", listing, flags=re.I)
+    zips = sorted(d.glob("*.zip"))
+    if not zips: sys.exit(f"no zip in {d}")
+    vm = re.search(r"-v?(\d+(?:\.\d+)+)\.zip$", zips[0].name)
+    summary = " ".join(sec("short description").split())
+    lic = " ".join(sec("license summary").replace("(for the listing page)", "").split())
+    desc = (d / "description.md").read_text(encoding="utf-8")
+    images = [str(x) for x in [d / "preview.png"] if x.exists()] + [str(x) for x in sorted(d.glob("screenshot*.png"))]
+    return dict(name=name, slug=re.sub(r"^\d{4}-\d{2}-\d{2}-", "", d.name), version=vm.group(1) if vm else "1.0",
+                price_usd=float(pm.group(1)), price_note=(pm.group(2).strip().rstrip(";,") if pm else ""),
+                summary=summary, description_md=desc,
+                tags=[t.strip() for t in re.split(r"[,\n]", sec("tags")) if t.strip()],
+                compatibility=[], license_note=lic, disclaimer="", created="", zip=str(zips[0]), images=images)
+
+def load_folder(d):
+    d = Path(d)
+    if (d / "product.json").exists():
+        return load_web_package(d)
+    if (d / "web" / "product.json").exists():
+        return load_web_package(d / "web")
+    if (d / "listing.md").exists() and (d / "description.md").exists():
+        return load_code_folder(d)
+    sys.exit(f"{d}: not a recognised product folder (need product.json, or listing.md + description.md + zip)")
+
 # ---------------------------------------------------------------- images
+def pad_to_ratio(im, ratio):
+    """Pad (not crop) to width/height == ratio using the top-left pixel colour."""
+    from PIL import Image
+    w, h = im.size
+    nw, nh = (w, round(w / ratio)) if w / h > ratio else (round(h * ratio), h)
+    canvas = Image.new(im.mode, (nw, nh), im.getpixel((0, 0)))
+    canvas.paste(im, ((nw - w) // 2, (nh - h) // 2))
+    return canvas
+
 def optimise_images(slug, sources, name=""):
     from PIL import Image
     out_dir = ROOT / "assets" / "img" / slug
@@ -166,10 +222,13 @@ def optimise_images(slug, sources, name=""):
         for label, width, q in (("full", 1600, 80), ("card", 800, 78), ("thumb", 240, 72)):
             if label == "card" and result:
                 continue  # card image only for the first (hero) image
-            w = min(width, im.width)
-            h = round(im.height * w / im.width)
+            src_im = im
+            if label == "card" and abs(im.width / im.height - 1.25) > 0.02:
+                src_im = pad_to_ratio(im, 1.25)
+            w = min(width, src_im.width)
+            h = round(src_im.height * w / src_im.width)
             fname = f"{n:02d}-{stem}{'' if label == 'full' else '-' + label}.webp"
-            im.resize((w, h), Image.LANCZOS).save(out_dir / fname, "WEBP", quality=q, method=6)
+            src_im.resize((w, h), Image.LANCZOS).save(out_dir / fname, "WEBP", quality=q, method=6)
             entry[label] = f"assets/img/{slug}/{fname}"
             if label == "full":
                 entry["w"], entry["h"] = w, h
@@ -234,6 +293,8 @@ def build_product_page(p):
     intro, secs = split_sections(p["description_md"])
     desc_md, incl_md = intro, ""
     for h, b in secs:
+        if re.fullmatch(r"price|pricing", h, re.I):
+            continue
         if INCLUDED_RE.search(h) and not incl_md:
             incl_md = b
         else:
@@ -253,12 +314,12 @@ def build_product_page(p):
   </div>
   <div class="buy">
     <h1>{html.escape(p["name"])}</h1>
-    <p class="lead">{html.escape(p["summary"])}</p>
-    <p>{price_html(p)}</p>
+    <p class="lead">{html.escape(p["summary"].replace("`", ""))}</p>
+    <p>{price_html(p)}{'<br><span class="small muted">' + html.escape(p["price_note"]) + '</span>' if p.get("price_note") else ''}</p>
     <a class="btn" href="{dl["url"]}" download>Download free <small>(.zip, {human_size(dl["size_bytes"])})</small></a>
     <p class="small muted">Version {html.escape(p["version"])} · Instant download, nothing is shipped.</p>
     {'<h3>Works with</h3><ul class="compat">' + compat + '</ul>' if compat else ''}
-    <p class="small"><strong>License:</strong> {license_note} No resale or redistribution.</p>
+    <p class="small"><strong>License:</strong> {license_note}{'' if re.search(r"resell|resale", license_note, re.I) else ' No resale or redistribution.'}</p>
     {disclaimer}
   </div>
 </section>
@@ -273,7 +334,7 @@ document.querySelectorAll('.thumb').forEach(function(a){{a.addEventListener('cli
 var f=document.querySelector('.thumb');if(f)f.classList.add('active');
 </script>"""
     title = f'{p["name"]} | {BRAND}'
-    return page(title, p["summary"], body, 2, og_image=main["full"], canonical=f'p/{p["slug"]}/')
+    return page(title, p["summary"].replace("`", ""), body, 2, og_image=main["full"], canonical=f'p/{p["slug"]}/')
 
 def build_index(products):
     cards = []
@@ -284,14 +345,14 @@ def build_index(products):
   <a href="p/{p["slug"]}/" class="card-img"><img src="{im["card"]}" alt="{html.escape(im["alt"])}" width="{im["card_w"]}" height="{im["card_h"]}" loading="lazy"></a>
   <div class="card-body">
     <h3><a href="p/{p["slug"]}/">{html.escape(p["name"])}</a></h3>
-    <p>{html.escape(p["summary"])}</p>
+    <p>{html.escape(p["summary"].replace("`", ""))}</p>
     <div class="card-foot">{price_html(p)}<a class="btn btn-sm" href="p/{p["slug"]}/">View</a></div>
   </div>
 </article>""")
     body = f"""
 <section class="hero"><div class="wrap">
   <h1>Spreadsheet templates and tools that save you hours.</h1>
-  <p>Practical, well-tested templates for Excel and Google Sheets, made by {BRAND}. No macros, no sign-ups. Everything is <strong>free during our launch</strong>.</p>
+  <p>Practical, well-tested Excel &amp; Google Sheets templates and developer tools, made by {BRAND}. No sign-ups. Everything is <strong>free during our launch</strong>.</p>
   <a class="btn" href="#products">Browse products</a>
 </div></section>
 <section id="products" class="wrap">
@@ -299,7 +360,7 @@ def build_index(products):
   <div class="grid">{''.join(cards)}</div>
 </section>"""
     return page(f"{BRAND} | Spreadsheet templates & tools",
-                "Practical Excel and Google Sheets templates by Persline Templates. Free during launch.", body, 0,
+                "Practical Excel & Google Sheets templates and developer tools by Persline Templates. Free during launch.", body, 0,
                 og_image=products[0]["images"][0]["full"] if products else None)
 
 def load_all():
@@ -344,13 +405,14 @@ def release(p, zip_path):
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("web_dir", nargs="?", help="web package folder containing product.json")
+    ap.add_argument("web_dir", nargs="?", help="product folder: web package (product.json) or code folder (listing.md + description.md + zip)")
     ap.add_argument("--listing", help="legacy listing file (gumroad.md format)")
     ap.add_argument("--zip", help="zip to publish (legacy mode)")
     ap.add_argument("--images", nargs="*", default=[], help="gallery images (first = hero/card image)")
-    ap.add_argument("--slug"); ap.add_argument("--version")
+    ap.add_argument("--slug"); ap.add_argument("--version"); ap.add_argument("--name", help="override display name")
     ap.add_argument("--compat", nargs="*", help="'Works with' list")
     ap.add_argument("--license-note"); ap.add_argument("--disclaimer")
+    ap.add_argument("--price-note", help="small text after the price, e.g. 'one-time, team license'")
     ap.add_argument("--order", type=int, default=100, help="sort position on the home page (lower = first)")
     ap.add_argument("--release", action="store_true", help="create/update the GitHub Release asset")
     ap.add_argument("--push", action="store_true", help="commit and push to main")
@@ -362,7 +424,7 @@ def main():
         if a.push: push("Rebuild site")
         return
     if a.web_dir:
-        p = load_web_package(a.web_dir)
+        p = load_folder(a.web_dir)
         if a.images:  # explicit images replace the package's preview
             p["images"] = a.images
     elif a.listing:
@@ -371,7 +433,7 @@ def main():
         p.update(zip=a.zip, images=a.images, version=a.version or "1.0", compatibility=[], license_note="", disclaimer="", created="")
     else:
         ap.error("give a web package folder, --listing, or --rebuild")
-    for k in ("slug", "version", "license_note", "disclaimer"):
+    for k in ("slug", "version", "name", "license_note", "disclaimer", "price_note"):
         if getattr(a, k): p[k] = getattr(a, k)
     if a.compat: p["compatibility"] = a.compat
     if not p.get("slug"): sys.exit("slug missing (use --slug)")

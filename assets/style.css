@@ -60,7 +60,7 @@ a{color:var(--brand)}
 .table-wrap{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:.92rem}
 th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-code{background:var(--accent);padding:1px 5px;border-radius:5px;font-size:.88em;word-break:break-all}
+code{background:var(--accent);padding:1px 5px;border-radius:5px;font-size:.88em;overflow-wrap:anywhere}
 .tags{list-style:none;padding:0;margin:0 0 48px;display:flex;flex-wrap:wrap;gap:8px}
 .tags li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.82rem;color:var(--muted)}
 .site-footer{border-top:1px solid var(--line);background:#fff;padding:28px 0;font-size:.92rem}
@@ -68,3 +68,6 @@ code{background:var(--accent);padding:1px 5px;border-radius:5px;font-size:.88em;
 .footer-line{font-weight:600}
 @media (max-width:860px){.product,.details{grid-template-columns:1fr;gap:24px}.buy{position:static}.hero{padding:44px 0 36px}.site-header nav a{margin-left:14px}}
 @media (max-width:400px){.site-header nav a{margin-left:10px;font-size:.9rem}.brand{font-size:.98rem}}
+pre{background:#14201c;color:#e6efe9;padding:14px 16px;border-radius:10px;overflow-x:auto;font-size:.85rem;line-height:1.5}
+pre code{background:none;padding:0;color:inherit;word-break:normal;white-space:pre}
+.desc h4{font-size:1.05rem;color:var(--muted);margin:0 0 12px}
