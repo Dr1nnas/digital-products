@@ -28,7 +28,7 @@ import build_site as site  # noqa: E402
 
 REPO = os.environ.get("STORE_REPO", "Dr1nnas/digital-products")
 SITE_URL = os.environ.get("STORE_URL", "https://shop.novif.app/")
-INTERNAL_DIR = Path("/workspace/products/internal")
+INTERNAL_DIR = Path(os.environ.get("STORE_INTERNAL_DIR", "/workspace/products/internal"))
 INTERNAL_FIELDS = ("supplier_url", "unit_cost_usd", "moq", "supplier", "supplier_sku", "cost_notes")
 PUBLIC_KEYS = ("name", "slug", "type", "category", "version", "price_usd", "compare_at_usd",
                "summary", "tags", "specs", "whats_included", "compatibility", "license_note",
