@@ -9,5 +9,7 @@ Store out-of-season clothes and bedding neatly in wardrobes or under the bed.
 
 This listing is the small size (35 x 25 x 20 cm); larger sizes appear in photos.
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.

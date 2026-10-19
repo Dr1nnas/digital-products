@@ -9,5 +9,7 @@ Add texture to a sofa or bed with a soft ribbed plush cover.
 
 Insert not included.
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.

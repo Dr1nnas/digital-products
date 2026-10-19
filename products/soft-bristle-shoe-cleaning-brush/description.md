@@ -7,5 +7,7 @@ Bring tired trainers back to life.
 - Easy-grip handle
 - Also for laundry stains and household scrubbing
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.

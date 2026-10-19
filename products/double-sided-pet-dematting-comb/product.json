@@ -1,11 +1,11 @@
 {
-  "name": "Double-Sided Pet Dematting Comb",
+  "name": "Double-Sided Pet Dematting Comb, 2-Pack (1 Blue + 1 Pink)",
   "slug": "double-sided-pet-dematting-comb",
   "type": "physical",
   "category": "physical-products",
   "version": "1.0",
-  "price_usd": 19.99,
-  "summary": "Two-sided stainless-steel grooming comb that loosens tangles and removes loose undercoat on dogs and cats.",
+  "price_usd": 30.99,
+  "summary": "Set of 2 double-sided stainless-steel dematting combs (1 blue, 1 pink) for tangles and loose undercoat on dogs and cats.",
   "tags": [
     "pet comb",
     "dematting tool",
@@ -17,17 +17,16 @@
   ],
   "specs": {
     "Material": "Stainless steel teeth, PP+TPR handle",
-    "Size": "approx. 7 x 17.5 cm",
-    "Colour": "Pink",
-    "Department": "Pet Supplies"
+    "Size": "approx. 9.5 x 17.5 cm each",
+    "Quantity": "2 combs: 1 blue + 1 pink"
   },
   "whats_included": [
-    "1 x dematting comb"
+    "2 x dematting combs (1 blue, 1 pink)"
   ],
   "shipping_estimate": "Est. 5-10 days to Norway",
   "images": [
     {
-      "alt": "Double-Sided Pet Dematting Comb: photo 1",
+      "alt": "Double-Sided Pet Dematting Comb, 2-Pack (1 Blue + 1 Pink): photo 1",
       "full": "assets/img/double-sided-pet-dematting-comb/01-01.webp",
       "w": 1600,
       "h": 1600,
@@ -39,11 +38,20 @@
       "thumb_h": 240
     },
     {
-      "alt": "Double-Sided Pet Dematting Comb: photo 2",
+      "alt": "Double-Sided Pet Dematting Comb, 2-Pack (1 Blue + 1 Pink): photo 2",
       "full": "assets/img/double-sided-pet-dematting-comb/02-02.webp",
       "w": 1600,
       "h": 1600,
       "thumb": "assets/img/double-sided-pet-dematting-comb/02-02-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Double-Sided Pet Dematting Comb, 2-Pack (1 Blue + 1 Pink): photo 3",
+      "full": "assets/img/double-sided-pet-dematting-comb/03-03.webp",
+      "w": 800,
+      "h": 800,
+      "thumb": "assets/img/double-sided-pet-dematting-comb/03-03-thumb.webp",
       "thumb_w": 240,
       "thumb_h": 240
     }

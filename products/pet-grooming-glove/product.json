@@ -1,33 +1,33 @@
 {
-  "name": "Pet Grooming and Deshedding Glove",
+  "name": "Pet Hair Removal Mitt for Furniture and Clothes (Light Brown)",
   "slug": "pet-grooming-glove",
   "type": "physical",
   "category": "physical-products",
   "version": "1.0",
-  "price_usd": 13.99,
-  "summary": "Soft silicone-nub grooming glove that lifts loose fur while you stroke your dog or cat. Also works at bath time.",
+  "price_usd": 17.99,
+  "summary": "Mesh-fabric mitt (approx. 24 x 16 cm) that lifts pet hair and lint off sofas, beds, car seats and clothes. Reusable, 1 piece.",
   "tags": [
-    "grooming glove",
-    "deshedding",
-    "pet brush",
-    "cat grooming",
-    "dog grooming",
-    "silicone",
-    "bath time"
+    "pet hair remover",
+    "lint mitt",
+    "sofa cleaning",
+    "reusable",
+    "cat hair",
+    "dog hair",
+    "furniture"
   ],
   "specs": {
-    "Material": "Fabric with silicone bristles",
-    "Colour": "Black",
-    "Quantity": "1 glove",
-    "Department": "Pet Supplies"
+    "Type": "Flat oval mitt with mesh cleaning surface and a band across the back for your hand (not a grooming brush for pets)",
+    "Size": "approx. 24 x 16 cm",
+    "Colour": "Brown mesh with light-grey edging",
+    "Quantity": "1"
   },
   "whats_included": [
-    "1 x grooming glove"
+    "1 x pet hair removal mitt (light brown)"
   ],
   "shipping_estimate": "Est. 5-10 days to Norway",
   "images": [
     {
-      "alt": "Pet Grooming and Deshedding Glove: photo 1",
+      "alt": "Pet Hair Removal Mitt for Furniture and Clothes (Light Brown): photo 1",
       "full": "assets/img/pet-grooming-glove/01-01.webp",
       "w": 800,
       "h": 800,
@@ -35,24 +35,6 @@
       "card_w": 800,
       "card_h": 640,
       "thumb": "assets/img/pet-grooming-glove/01-01-thumb.webp",
-      "thumb_w": 240,
-      "thumb_h": 240
-    },
-    {
-      "alt": "Pet Grooming and Deshedding Glove: photo 2",
-      "full": "assets/img/pet-grooming-glove/02-03.webp",
-      "w": 1001,
-      "h": 1001,
-      "thumb": "assets/img/pet-grooming-glove/02-03-thumb.webp",
-      "thumb_w": 240,
-      "thumb_h": 240
-    },
-    {
-      "alt": "Pet Grooming and Deshedding Glove: photo 3",
-      "full": "assets/img/pet-grooming-glove/03-04.webp",
-      "w": 800,
-      "h": 800,
-      "thumb": "assets/img/pet-grooming-glove/03-04-thumb.webp",
       "thumb_w": 240,
       "thumb_h": 240
     }

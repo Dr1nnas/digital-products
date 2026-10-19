@@ -1,11 +1,11 @@
 {
-  "name": "Cotton Rope Macrame Plant Hanger",
+  "name": "Jute Macrame Plant Hanger (1 piece)",
   "slug": "macrame-plant-hanger",
   "type": "physical",
   "category": "physical-products",
   "version": "1.0",
   "price_usd": 17.99,
-  "summary": "Hand-woven cotton rope hanger for small flower pots. Adds greenery to windows and corners.",
+  "summary": "One hand-knotted jute (hemp) rope macrame hanger for a small flower pot. Pot and plant not included.",
   "tags": [
     "plant hanger",
     "macrame",
@@ -16,25 +16,34 @@
     "home decor"
   ],
   "specs": {
-    "Material": "Cotton rope",
+    "Material": "Jute/hemp rope",
     "Size": "Small (S)",
-    "Pot": "Not included",
-    "Department": "Home Decor"
+    "Quantity": "1",
+    "Pot": "Not included"
   },
   "whats_included": [
-    "1 x macrame plant hanger"
+    "1 x jute macrame plant hanger (pot, plant and hook not included)"
   ],
   "shipping_estimate": "Est. 5-10 days to Norway",
   "images": [
     {
-      "alt": "Cotton Rope Macrame Plant Hanger: photo 1",
+      "alt": "Jute Macrame Plant Hanger (1 piece): photo 1",
       "full": "assets/img/macrame-plant-hanger/01-01.webp",
-      "w": 1500,
-      "h": 1500,
+      "w": 800,
+      "h": 800,
       "card": "assets/img/macrame-plant-hanger/01-01-card.webp",
       "card_w": 800,
       "card_h": 640,
       "thumb": "assets/img/macrame-plant-hanger/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    },
+    {
+      "alt": "Jute Macrame Plant Hanger (1 piece): photo 2",
+      "full": "assets/img/macrame-plant-hanger/02-02.webp",
+      "w": 960,
+      "h": 962,
+      "thumb": "assets/img/macrame-plant-hanger/02-02-thumb.webp",
       "thumb_w": 240,
       "thumb_h": 240
     }

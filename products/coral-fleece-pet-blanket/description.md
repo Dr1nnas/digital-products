@@ -8,5 +8,7 @@ A soft layer for crates, sofas, beds or the car.
 - Protects furniture from hair
 - Machine washable at low temperature
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.

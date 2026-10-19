@@ -8,5 +8,7 @@ Pack faster and find things without unpacking everything. Sort clothes by type o
 - Light nylon fabric that resists dust and splashes
 - Fold flat when not in use
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.

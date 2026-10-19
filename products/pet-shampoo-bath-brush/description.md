@@ -9,5 +9,7 @@ Make bath time quicker for dogs and cats.
 
 Shampoo not included.
 
+Pictured items may include props or extra units not included; see What's included.
+
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 8-15 days to Norway.
