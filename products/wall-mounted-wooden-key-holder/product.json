@@ -1,10 +1,10 @@
 {
-  "name": "Wall-Mounted Wooden Key Holder with Shelf",
+  "name": "Wall-Mounted Wooden Key Holder with Shelf (Wood Colour)",
   "slug": "wall-mounted-wooden-key-holder",
   "type": "physical",
   "category": "physical-products",
   "version": "1.0",
-  "price_usd": 36.99,
+  "price_usd": 26.99,
   "summary": "Wooden entryway key rack with hooks and a small shelf for post and sunglasses.",
   "tags": [
     "key holder",
@@ -19,40 +19,24 @@
     "Material": "Wood / bamboo",
     "Colour": "Natural wood",
     "Finish": "Polished",
-    "Department": "Home Decor"
+    "Quantity": "1 key holder (Wood colour) + 3 screws + 3 wall anchors"
   },
   "whats_included": [
-    "1 x wooden key holder"
+    "1 x wall-mounted key holder with shelf, wood colour",
+    "3 x wall screws",
+    "3 x wall anchors"
   ],
   "shipping_estimate": "Est. 5-10 days to Norway",
   "images": [
     {
-      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 1",
-      "full": "assets/img/wall-mounted-wooden-key-holder/01-02.webp",
+      "alt": "Wall-Mounted Wooden Key Holder with Shelf (Wood Colour): photo 1",
+      "full": "assets/img/wall-mounted-wooden-key-holder/01-01.webp",
       "w": 800,
       "h": 800,
-      "card": "assets/img/wall-mounted-wooden-key-holder/01-02-card.webp",
+      "card": "assets/img/wall-mounted-wooden-key-holder/01-01-card.webp",
       "card_w": 800,
       "card_h": 640,
-      "thumb": "assets/img/wall-mounted-wooden-key-holder/01-02-thumb.webp",
-      "thumb_w": 240,
-      "thumb_h": 240
-    },
-    {
-      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 2",
-      "full": "assets/img/wall-mounted-wooden-key-holder/02-04.webp",
-      "w": 800,
-      "h": 800,
-      "thumb": "assets/img/wall-mounted-wooden-key-holder/02-04-thumb.webp",
-      "thumb_w": 240,
-      "thumb_h": 240
-    },
-    {
-      "alt": "Wall-Mounted Wooden Key Holder with Shelf: photo 3",
-      "full": "assets/img/wall-mounted-wooden-key-holder/03-05.webp",
-      "w": 800,
-      "h": 800,
-      "thumb": "assets/img/wall-mounted-wooden-key-holder/03-05-thumb.webp",
+      "thumb": "assets/img/wall-mounted-wooden-key-holder/01-01-thumb.webp",
       "thumb_w": 240,
       "thumb_h": 240
     }

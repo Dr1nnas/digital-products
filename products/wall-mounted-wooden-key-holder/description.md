@@ -1,4 +1,4 @@
-# Wall-Mounted Wooden Key Holder with Shelf
+# Wall-Mounted Wooden Key Holder with Shelf (Wood Colour)
 
 Never hunt for your keys again.
 
@@ -11,3 +11,5 @@ Wall fixings suitable for your wall may be needed.
 
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.
+
+**What you get:** 1 x wall-mounted key holder with shelf, wood colour; 3 x wall screws; 3 x wall anchors.

@@ -1,4 +1,4 @@
-# Stretch Suitcase Protector Cover (18–20")
+# Stretch Suitcase Protector Cover, Yellow, S (18-20 in)
 
 Protect your suitcase and spot it fast at baggage claim.
 
@@ -9,3 +9,7 @@ Protect your suitcase and spot it fast at baggage claim.
 
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.
+
+**What you get:** 1 x stretch luggage cover, yellow, size S (18-20 in).
+
+Props shown are not included.

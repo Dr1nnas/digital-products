@@ -1,4 +1,4 @@
-# Soft-Bristle Shoe Cleaning Brush
+# Soft-Bristle Shoe Cleaning Brush (Yellow-Green, 1 pc)
 
 Bring tired trainers back to life.
 
@@ -7,7 +7,9 @@ Bring tired trainers back to life.
 - Easy-grip handle
 - Also for laundry stains and household scrubbing
 
-Pictured items may include props or extra units not included; see What's included.
-
 ## Shipping
 Ships from our fulfilment partner's warehouse, estimated 5-10 days to Norway.
+
+**What you get:** 1 x shoe cleaning brush, milk yellow-green.
+
+Props shown are not included.

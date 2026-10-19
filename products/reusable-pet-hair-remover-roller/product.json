@@ -1,0 +1,44 @@
+{
+  "name": "Reusable Pet Hair Remover Roller (White, 1 pc)",
+  "slug": "reusable-pet-hair-remover-roller",
+  "type": "physical",
+  "category": "physical-products",
+  "version": "1.0",
+  "price_usd": 14.99,
+  "summary": "Roll back and forth to lift pet hair from sofas, beds and car seats, then empty the chamber. No sticky refills.",
+  "tags": [
+    "pet hair remover",
+    "lint roller",
+    "reusable",
+    "sofa cleaning",
+    "cat hair",
+    "dog hair",
+    "no refills"
+  ],
+  "specs": {
+    "Material": "Plastic",
+    "Colour": "White",
+    "Refills": "None needed",
+    "Quantity": "1 roller (White)"
+  },
+  "whats_included": [
+    "1 x reusable pet hair remover roller, white"
+  ],
+  "shipping_estimate": "Est. 5-10 days to Norway",
+  "images": [
+    {
+      "alt": "Reusable Pet Hair Remover Roller (White, 1 pc): photo 1",
+      "full": "assets/img/reusable-pet-hair-remover-roller/01-01.webp",
+      "w": 800,
+      "h": 800,
+      "card": "assets/img/reusable-pet-hair-remover-roller/01-01-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/reusable-pet-hair-remover-roller/01-01-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 240
+    }
+  ],
+  "order": 200,
+  "added": "2026-10-19T16:19:15"
+}
