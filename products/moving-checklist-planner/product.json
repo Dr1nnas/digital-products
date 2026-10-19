@@ -1,0 +1,66 @@
+{
+  "name": "Moving Checklist & Planner",
+  "slug": "moving-checklist-planner",
+  "version": "1.0",
+  "type": "digital",
+  "category": "printables",
+  "price_usd": 5.5,
+  "summary": "An 18-page printable moving planner with a step-by-step timeline from eight weeks before the move to the first month after, plus change-of-address, utilities, packing, budget and moving-day pages. Comes in both A4 and US Letter.",
+  "tags": [
+    "moving checklist",
+    "moving planner",
+    "moving binder",
+    "relocation planner",
+    "packing list",
+    "change of address",
+    "new home checklist",
+    "moving printable",
+    "box inventory",
+    "moving budget",
+    "house move planner",
+    "first home gift",
+    "moving day plan"
+  ],
+  "license_note": "Personal use only; see LICENSE.pdf in the download.",
+  "created": "2026-10-19",
+  "images": [
+    {
+      "alt": "Moving Checklist & Planner: Hero",
+      "full": "assets/img/moving-checklist-planner/01-hero.webp",
+      "w": 1600,
+      "h": 1280,
+      "card": "assets/img/moving-checklist-planner/01-hero-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/moving-checklist-planner/01-hero-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Moving Checklist & Planner: All pages",
+      "full": "assets/img/moving-checklist-planner/02-all-pages.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/moving-checklist-planner/02-all-pages-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Moving Checklist & Planner: Details included",
+      "full": "assets/img/moving-checklist-planner/03-details-included.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/moving-checklist-planner/03-details-included-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    }
+  ],
+  "download": {
+    "tag": "moving-checklist-planner-v1.0",
+    "filename": "Moving-Checklist-Planner-v1.0.zip",
+    "size_bytes": 401129,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/moving-checklist-planner-v1.0/Moving-Checklist-Planner-v1.0.zip"
+  },
+  "order": 100,
+  "added": "2026-10-19T15:29:03"
+}

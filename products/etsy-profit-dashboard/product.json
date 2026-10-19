@@ -96,5 +96,8 @@
     "size_bytes": 2891884,
     "url": "https://github.com/Dr1nnas/digital-products/releases/download/etsy-profit-dashboard-v1.0/Etsy-Profit-Dashboard-International-v1.0.zip"
   },
-  "order": 1
+  "order": 1,
+  "featured": true,
+  "category": "spreadsheet-templates",
+  "added": "2026-10-19"
 }

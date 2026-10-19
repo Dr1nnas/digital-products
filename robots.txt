@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shop.novif.app/sitemap.xml

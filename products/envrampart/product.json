@@ -46,5 +46,8 @@
     "size_bytes": 21703,
     "url": "https://github.com/Dr1nnas/digital-products/releases/download/envrampart-v1.0.0/envrampart-1.0.0.zip"
   },
-  "order": 3
+  "order": 3,
+  "featured": false,
+  "category": "dev-tools",
+  "added": "2026-10-19"
 }

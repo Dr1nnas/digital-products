@@ -65,5 +65,8 @@
     "size_bytes": 810240,
     "url": "https://github.com/Dr1nnas/digital-products/releases/download/job-application-tracker-v1.0/Job-Search-Tracker-v1.0.zip"
   },
-  "order": 2
+  "order": 2,
+  "featured": false,
+  "category": "spreadsheet-templates",
+  "added": "2026-10-19"
 }

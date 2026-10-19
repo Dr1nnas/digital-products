@@ -1,0 +1,66 @@
+{
+  "name": "Meal Planner Printable Kit",
+  "slug": "meal-planner-printable",
+  "version": "1.0",
+  "type": "digital",
+  "category": "printables",
+  "price_usd": 4.5,
+  "summary": "An undated, ink-light meal planner kit with 13 printable pages: weekly and monthly meal plans, a grocery list sorted by aisle, pantry and freezer inventories, recipe cards and a food budget tracker. Comes in both A4 and US Letter.",
+  "tags": [
+    "meal planner",
+    "grocery list",
+    "weekly meal plan",
+    "meal prep planner",
+    "menu planner",
+    "printable planner",
+    "pantry inventory",
+    "freezer inventory",
+    "recipe cards",
+    "food budget",
+    "family planner",
+    "kitchen printable",
+    "shopping list"
+  ],
+  "license_note": "Personal use only; see LICENSE.pdf in the download.",
+  "created": "2026-10-19",
+  "images": [
+    {
+      "alt": "Meal Planner Printable Kit: Hero",
+      "full": "assets/img/meal-planner-printable/01-hero.webp",
+      "w": 1600,
+      "h": 1280,
+      "card": "assets/img/meal-planner-printable/01-hero-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/meal-planner-printable/01-hero-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Meal Planner Printable Kit: All pages",
+      "full": "assets/img/meal-planner-printable/02-all-pages.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/meal-planner-printable/02-all-pages-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Meal Planner Printable Kit: Details included",
+      "full": "assets/img/meal-planner-printable/03-details-included.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/meal-planner-printable/03-details-included-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    }
+  ],
+  "download": {
+    "tag": "meal-planner-printable-v1.0",
+    "filename": "Meal-Planner-Printable-Kit-v1.0.zip",
+    "size_bytes": 363559,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/meal-planner-printable-v1.0/Meal-Planner-Printable-Kit-v1.0.zip"
+  },
+  "order": 100,
+  "added": "2026-10-19T15:29:01"
+}
