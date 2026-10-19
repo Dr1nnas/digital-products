@@ -1,0 +1,100 @@
+{
+  "name": "Profit & Fee Dashboard for Etsy Sellers (International Edition)",
+  "slug": "etsy-profit-dashboard",
+  "price_usd": 16.99,
+  "summary": "See your real profit on every Etsy order, with the right fees and VAT for your country. Excel and Google Sheets, no macros.",
+  "tags": [
+    "etsy seller",
+    "profit calculator",
+    "etsy fees",
+    "bookkeeping",
+    "spreadsheet template",
+    "google sheets",
+    "excel template",
+    "vat"
+  ],
+  "images": [
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Hero",
+      "full": "assets/img/etsy-profit-dashboard/01-hero.webp",
+      "w": 1600,
+      "h": 1280,
+      "card": "assets/img/etsy-profit-dashboard/01-hero-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/etsy-profit-dashboard/01-hero-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Dashboard",
+      "full": "assets/img/etsy-profit-dashboard/02-dashboard.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/02-dashboard-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Country fees",
+      "full": "assets/img/etsy-profit-dashboard/03-country-fees.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/03-country-fees-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Pricing calculator",
+      "full": "assets/img/etsy-profit-dashboard/04-pricing-calculator.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/04-pricing-calculator-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Pnl and tax",
+      "full": "assets/img/etsy-profit-dashboard/05-pnl-and-tax.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/05-pnl-and-tax-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): How it works",
+      "full": "assets/img/etsy-profit-dashboard/06-how-it-works.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/06-how-it-works-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Profit & Fee Dashboard for Etsy Sellers (International Edition): Whats included",
+      "full": "assets/img/etsy-profit-dashboard/07-whats-included.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/etsy-profit-dashboard/07-whats-included-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    }
+  ],
+  "version": "1.0",
+  "compatibility": [
+    "Microsoft Excel 2010 or newer (Windows and Mac)",
+    "Google Sheets (free)",
+    "LibreOffice Calc"
+  ],
+  "license_note": "For use in your own business (commercial use allowed); see License.pdf in the download.",
+  "disclaimer": "Not affiliated with, endorsed by or sponsored by Etsy, Inc. Etsy is a trademark of Etsy, Inc. Results are estimates and a bookkeeping aid, not tax or financial advice.",
+  "created": "",
+  "download": {
+    "tag": "etsy-profit-dashboard-v1.0",
+    "filename": "Etsy-Profit-Dashboard-International-v1.0.zip",
+    "size_bytes": 2891884,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/etsy-profit-dashboard-v1.0/Etsy-Profit-Dashboard-International-v1.0.zip"
+  },
+  "order": 1
+}

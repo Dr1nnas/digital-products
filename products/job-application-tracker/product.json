@@ -1,0 +1,69 @@
+{
+  "name": "Job Search Tracker (Excel + Google Sheets)",
+  "slug": "job-application-tracker",
+  "version": "1.0",
+  "price_usd": 7.5,
+  "summary": "A job application tracker for Excel and Google Sheets that keeps every application, interview, contact and offer in one place, with automatic follow-up reminders. A live dashboard shows your response rate, interview rate, weekly progress and which job sources actually lead to interviews.",
+  "tags": [
+    "job tracker",
+    "job search tracker",
+    "application tracker",
+    "job application",
+    "interview tracker",
+    "job search planner",
+    "google sheets",
+    "excel template",
+    "career planner",
+    "job hunt",
+    "offer comparison",
+    "spreadsheet template",
+    "new grad gift"
+  ],
+  "compatibility": [
+    "Microsoft Excel",
+    "Google Sheets",
+    "LibreOffice Calc"
+  ],
+  "license_note": "Personal use only; see LICENSE.pdf in the download.",
+  "disclaimer": "",
+  "created": "2026-10-19",
+  "images": [
+    {
+      "alt": "Job Search Tracker (Excel + Google Sheets): Hero dashboard",
+      "full": "assets/img/job-application-tracker/01-hero-dashboard.webp",
+      "w": 1600,
+      "h": 1280,
+      "card": "assets/img/job-application-tracker/01-hero-dashboard-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/job-application-tracker/01-hero-dashboard-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Job Search Tracker (Excel + Google Sheets): Applications interviews",
+      "full": "assets/img/job-application-tracker/02-applications-interviews.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/job-application-tracker/02-applications-interviews-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Job Search Tracker (Excel + Google Sheets): Offer compare whats included",
+      "full": "assets/img/job-application-tracker/03-offer-compare-whats-included.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/job-application-tracker/03-offer-compare-whats-included-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    }
+  ],
+  "download": {
+    "tag": "job-application-tracker-v1.0",
+    "filename": "Job-Search-Tracker-v1.0.zip",
+    "size_bytes": 810240,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/job-application-tracker-v1.0/Job-Search-Tracker-v1.0.zip"
+  },
+  "order": 2
+}
