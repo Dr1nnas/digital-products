@@ -32,6 +32,8 @@ CATEGORIES = [  # known categories, in nav order; unknown slugs get an auto titl
      "blurb": "Excel & Google Sheets templates for business, money and life admin. No macros."},
     {"slug": "dev-tools", "name": "Dev Tools", "short": "Dev Tools",
      "blurb": "Small, dependency-free tools and boilerplates that save developers hours."},
+    {"slug": "notion-templates", "name": "Notion Templates", "short": "Notion",
+     "blurb": "Import packs for Notion: linked databases, formulas and pages you build in your own workspace."},
     {"slug": "printables", "name": "Printables", "short": "Printables",
      "blurb": "Print-ready PDF planners and checklists in A4 and US Letter."},
     {"slug": "physical-products", "name": "Physical Products", "short": "Physical",
@@ -289,6 +291,8 @@ def product_page(ctx, p, related):
         cta = (f'<a class="btn btn-lg" href="{dl["url"]}">Download free <small>(.zip, {human_size(dl["size_bytes"])})</small></a>'
                f'<p class="small muted">Instant download, no sign-up. Free during launch.</p>')
         cta2 = f'<a class="btn btn-block" href="{dl["url"]}">Download free</a>'
+        for x in p.get("extra_downloads", []):
+            cta += f'<p class="small"><a href="{x["url"]}">Also available: {esc(x["label"])} (.zip, {human_size(x["size_bytes"])})</a></p>'
     pnote = f'<p class="small muted pnote">{esc(p["price_note"])}</p>' if p.get("price_note") else ""
     if is_physical(p):
         ship = f' · Shipping: {esc(p["shipping_estimate"])}' if p.get("shipping_estimate") else ""

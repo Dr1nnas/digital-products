@@ -1,0 +1,87 @@
+{
+  "name": "Freelance Client & Project Hub, template for Notion",
+  "slug": "notion-freelance-client-hub",
+  "version": "1.0",
+  "type": "digital",
+  "category": "notion-templates",
+  "price_usd": 12.0,
+  "summary": "A Notion import pack for freelancers: six linked databases (clients, projects, tasks, time log, invoices, leads) with 18 formulas, a Home dashboard, onboarding, kickoff and weekly-review pages, sample and blank CSVs, and a step-by-step setup guide.",
+  "tags": [
+    "notion template",
+    "freelance template",
+    "notion freelancer",
+    "client tracker",
+    "project tracker",
+    "notion crm",
+    "time tracker",
+    "invoice tracker",
+    "notion dashboard",
+    "small business crm",
+    "lead tracker",
+    "freelancer planner",
+    "client onboarding"
+  ],
+  "compatibility": [
+    "Notion (free plan or higher), web, desktop or mobile app for setup"
+  ],
+  "license_note": "Personal & single-business use; see LICENSE.pdf in the download.",
+  "disclaimer": "Notion is a trademark of Notion Labs, Inc. This template is independent and not affiliated with or endorsed by Notion.",
+  "created": "2026-10-19",
+  "images": [
+    {
+      "alt": "Freelance Client & Project Hub, template for Notion: Hero",
+      "full": "assets/img/notion-freelance-client-hub/01-hero.webp",
+      "w": 1600,
+      "h": 1280,
+      "card": "assets/img/notion-freelance-client-hub/01-hero-card.webp",
+      "card_w": 800,
+      "card_h": 640,
+      "thumb": "assets/img/notion-freelance-client-hub/01-hero-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Freelance Client & Project Hub, template for Notion: Databases",
+      "full": "assets/img/notion-freelance-client-hub/02-databases.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/notion-freelance-client-hub/02-databases-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Freelance Client & Project Hub, template for Notion: Relations formulas",
+      "full": "assets/img/notion-freelance-client-hub/03-relations-formulas.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/notion-freelance-client-hub/03-relations-formulas-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    },
+    {
+      "alt": "Freelance Client & Project Hub, template for Notion: Whats included",
+      "full": "assets/img/notion-freelance-client-hub/04-whats-included.webp",
+      "w": 1600,
+      "h": 1280,
+      "thumb": "assets/img/notion-freelance-client-hub/04-whats-included-thumb.webp",
+      "thumb_w": 240,
+      "thumb_h": 192
+    }
+  ],
+  "download": {
+    "tag": "notion-freelance-client-hub-v1.0",
+    "filename": "Freelance-Client-Hub-v1.0.zip",
+    "size_bytes": 181728,
+    "url": "https://github.com/Dr1nnas/digital-products/releases/download/notion-freelance-client-hub-v1.0/Freelance-Client-Hub-v1.0.zip"
+  },
+  "extra_downloads": [
+    {
+      "label": "Notion import pack only (pages + CSV databases)",
+      "filename": "Freelance-Client-Hub-Notion-Import.zip",
+      "size_bytes": 29565,
+      "url": "https://github.com/Dr1nnas/digital-products/releases/download/notion-freelance-client-hub-v1.0/Freelance-Client-Hub-Notion-Import.zip"
+    }
+  ],
+  "order": 100,
+  "added": "2026-10-19T16:12:41"
+}

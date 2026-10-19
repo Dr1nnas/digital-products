@@ -33,7 +33,7 @@ INTERNAL_FIELDS = ("supplier_url", "unit_cost_usd", "moq", "supplier", "supplier
 PUBLIC_KEYS = ("name", "slug", "type", "category", "version", "price_usd", "compare_at_usd",
                "summary", "tags", "specs", "whats_included", "compatibility", "license_note",
                "disclaimer", "shipping_estimate", "created", "added",
-               "featured", "order", "price_note", "images", "download")
+               "featured", "order", "price_note", "images", "download", "extra_downloads")
 
 # ---------------------------------------------------------------- markdown helpers (for gumroad only)
 def parse_gumroad(path):
@@ -211,14 +211,24 @@ def optimise_images(slug, sources, name=""):
     return result
 
 # ---------------------------------------------------------------- save / release / push
-def save_product(p, order, featured):
+def asset_url(tag, name):
+    from urllib.parse import quote
+    return f"https://github.com/{REPO}/releases/download/{tag}/{quote(name)}"
+
+def save_product(p, order, featured, extras=()):
     internal = p.pop("_internal", None)
     zip_path = p.pop("zip", None)
     if zip_path:
         z = Path(zip_path).resolve()
+        if " " in z.name: sys.exit(f"{z.name}: rename files with spaces before publishing")
         tag = f'{p["slug"]}-v{p["version"]}'
-        p["download"] = dict(tag=tag, filename=z.name, size_bytes=z.stat().st_size,
-                             url=f"https://github.com/{REPO}/releases/download/{tag}/{z.name}")
+        p["download"] = dict(tag=tag, filename=z.name, size_bytes=z.stat().st_size, url=asset_url(tag, z.name))
+        p["extra_downloads"] = []
+        for path, label in extras:
+            e = Path(path).resolve()
+            if " " in e.name: sys.exit(f"{e.name}: rename files with spaces before publishing")
+            p["extra_downloads"].append(dict(label=label, filename=e.name, size_bytes=e.stat().st_size,
+                                             url=asset_url(tag, e.name), path=str(e)))
     p["images"] = optimise_images(p["slug"], p["images"], p["name"]) if p.get("images") else []
     p["order"] = order
     if featured: p["featured"] = True
@@ -230,11 +240,12 @@ def save_product(p, order, featured):
     out.mkdir(parents=True, exist_ok=True)
     (out / "description.md").write_text((p.pop("description_md") or "").strip() + "\n", encoding="utf-8")
     public = {k: v for k, v in p.items() if k in PUBLIC_KEYS and v not in (None, "", [], {})}
+    extra_paths = [x.pop("path") for x in public.get("extra_downloads", [])]
     (out / "product.json").write_text(json.dumps(public, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     if internal:
         INTERNAL_DIR.mkdir(parents=True, exist_ok=True)
         (INTERNAL_DIR / f'{p["slug"]}.json').write_text(json.dumps(internal, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    return (Path(zip_path).resolve() if zip_path else None), public
+    return ([Path(zip_path).resolve()] + [Path(x) for x in extra_paths] if zip_path else None), public
 
 def run(cmd):
     print("+", " ".join(cmd)); subprocess.run(cmd, cwd=ROOT, check=True)
@@ -245,13 +256,14 @@ def push(msg):
         run(["git", "commit", "-q", "-m", msg])
     run(["git", "push", "-q", "origin", "main"])
 
-def release(p, zip_path):
+def release(p, files):
+    files = [str(f) for f in (files if isinstance(files, (list, tuple)) else [files])]
     tag = p["download"]["tag"]
     exists = subprocess.run(["gh", "release", "view", tag, "-R", REPO], cwd=ROOT, capture_output=True).returncode == 0
     if exists:
-        run(["gh", "release", "upload", tag, str(zip_path), "--clobber", "-R", REPO])
+        run(["gh", "release", "upload", tag, *files, "--clobber", "-R", REPO])
     else:
-        run(["gh", "release", "create", tag, str(zip_path), "-R", REPO, "--target", "main",
+        run(["gh", "release", "create", tag, *files, "-R", REPO, "--target", "main",
              "--title", f'{p["name"]} v{p["version"]}',
              "--notes", f'{p["summary"]}\n\nProduct page: {SITE_URL}p/{p["slug"]}/\n\nFree during launch. Personal and commercial use per included license; no resale.'])
 
@@ -266,6 +278,8 @@ def main():
     ap.add_argument("--order", type=int, default=100); ap.add_argument("--featured", action="store_true")
     ap.add_argument("--release", action="store_true"); ap.add_argument("--push", action="store_true")
     ap.add_argument("--rebuild", action="store_true")
+    ap.add_argument("--extra-zip", action="append", default=[], metavar="PATH=LABEL",
+                    help="additional release asset shown on the page (repeatable)")
     a = ap.parse_args()
     if a.rebuild and not a.folders and not a.listing:
         site.build(); 
@@ -291,7 +305,8 @@ def main():
         if a.compat: p["compatibility"] = a.compat
         if not p.get("slug"): sys.exit("slug missing")
         if not p.get("images"): sys.exit(f'{p["slug"]}: at least one image is required')
-        zip_path, public = save_product(p, a.order, a.featured)
+        extras = [tuple(x.split("=", 1)) if "=" in x else (x, Path(x).name) for x in a.extra_zip]
+        zip_path, public = save_product(p, a.order, a.featured, extras)
         if a.release and zip_path: releases.append((public, zip_path))
         print("product page:", f'{SITE_URL}p/{public["slug"]}/')
         if public.get("download"): print("download:   ", public["download"]["url"])
