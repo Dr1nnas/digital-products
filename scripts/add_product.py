@@ -31,7 +31,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = os.environ.get("STORE_REPO", "Dr1nnas/digital-products")
-SITE_URL = os.environ.get("STORE_URL", "https://dr1nnas.github.io/digital-products/")
+SITE_URL = os.environ.get("STORE_URL", "https://shop.novif.app/")
 BRAND = "Persline Templates"
 CONTACT = "shop@novif.app"
 FOOTER_LINE = "Free during launch. Personal and commercial use per included license; no resale."
